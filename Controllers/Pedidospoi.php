@@ -46,9 +46,9 @@ class Pedidospoi extends Controllers
 			header("Location:" . base_url() . '/dashboard');
 		}
 		$data['page_id'] = 4;
-		$data['page_tag'] = "Pedidospoi ";
-		$data['page_name'] = "Pedidospoi";
-		$data['page_title'] = "Pedidospoi  <small> Tienda POI</small>";
+		$data['page_tag'] = "Pedidospaco ";
+		$data['page_name'] = "Pedidospaco";
+		$data['page_title'] = "Pedidospaco  <small> Tienda PACO</small>";
 		$data['page_functions_js'] = "functions_pedidospoi.js";
 		//$data['page_functions_js'] = "functions_actividadestrategica.js";
 		$this->views->getView($this, "Pedidospoi", $data);
@@ -77,7 +77,7 @@ class Pedidospoi extends Controllers
 	//color de texto
 	//$fpdf->SetTextColor(25,174,194);
 	//PRIMER TITULO
-	$fpdf->Cell(0, 10," $idact FICHA DE ACTIVIDAD OPERATIVA POI 2023 - DRE PUNO Nro $idreg", 0 , 1, 'C');
+	$fpdf->Cell(0, 10," $idact FICHA DE PLAN DE ACTIVIDADES OPERATIVAS UNAJ Nro $idreg", 0 , 1, 'C');
 
 	//$fpdf->Cell(0, 10,  $arrData['unidmedidaoe']  , 0 , 1, 'C');
 			
@@ -259,7 +259,7 @@ class Pedidospoi extends Controllers
 
 
 	//cerrar el inicio del pdf
-	$fpdf->Output('I', 'fichaPOI.pdf');
+	$fpdf->Output('I', 'fichaPACO.pdf');
 	die();	
 	}
 

@@ -19,7 +19,7 @@ class Cuadronecesidad extends Controllers{
 			header("Location:".base_url().'/dashboard');
 		}
 		$data['page_tag'] = "Cuadronecesidad";
-		$data['page_title'] = "Cuadro nesesidad <small>Tienda poi</small>";
+		$data['page_title'] = "Cuadro nesesidad <small>Tienda PACO</small>";
 		$data['page_name'] = "cuadronesesidad";
 		$data['page_functions_js'] = "functions_cuadronecesidad.js";
 		$this->views->getView($this,"Cuadronecesidad",$data);

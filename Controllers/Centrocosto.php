@@ -20,7 +20,7 @@
 			$data['page_id'] = 4;
 			$data['page_tag'] = "Centrocosto Usuario";
 			$data['page_name'] = "rol_usuario";
-			$data['page_title'] = "Centrocosto Usuario <small> Tienda POI</small>";
+			$data['page_title'] = "Centrocosto Usuario <small> Tienda PACO</small>";
 			$data['page_functions_js'] = "functions_Centrocosto.js";
 			$this->views->getView($this,"Centrocosto",$data);
 		}

@@ -3,7 +3,7 @@
   <div class="modal-dialog modal-lg" >
     <div class="modal-content">
       <div class="modal-header headerRegister">
-        <h5 class="modal-title" id="titleModal">Nuevo Registro Poi</h5>
+        <h5 class="modal-title" id="titleModal">Nuevo Registro PACO</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -12,7 +12,7 @@
             
             <form id="formRegistropoi" name="formRegistropoi" class="form-horizontal">
               <input type="hidden" id="idRegistropoi" name="idRegistropoi" value="">
-              <p class="text-primary">Usted esta llenando la fase de iniciacion de ficha POI</p>
+              <p class="text-primary">Usted esta llenando la fase de iniciacion de ficha PACO</p>
 
               <div class="form-row">
                 <div class="form-group col-md-6">

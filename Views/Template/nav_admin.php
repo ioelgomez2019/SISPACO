@@ -42,12 +42,12 @@
             <a class="app-menu__item" href="#" data-toggle="treeview">
 
                 <i class="app-menu__icon fa fa-shopping-cart" aria-hidden="true"></i>
-                <span class="app-menu__label">Ficha POI</span>
+                <span class="app-menu__label">Ficha PACO</span>
                 <i class="treeview-indicator fa fa-angle-right"></i>
             </a>
             <ul class="treeview-menu">
                 <?php if(!empty($_SESSION['permisos'][4]['r'])){ ?>
-                <li><a class="treeview-item" href="<?= base_url(); ?>/registropoi"><i class="icon fa fa-circle-o"></i> Registro POI</a></li>
+                <li><a class="treeview-item" href="<?= base_url(); ?>/registropoi"><i class="icon fa fa-circle-o"></i> Registro PACO</a></li>
                 <?php } ?>
 
                 <?php if(!empty($_SESSION['permisos'][6]['r'])){ ?>
@@ -65,7 +65,7 @@
             <a class="app-menu__item" href="<?= base_url(); ?>/pedidospoi">
                 <i class="app-menu__icon fa fa-archive" aria-hidden="true"></i>
                 
-                <span class="app-menu__label">Pedidos Poi</span>
+                <span class="app-menu__label">Pedidos PACO</span>
             </a>
         </li>
          <?php } ?>

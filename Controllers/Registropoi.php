@@ -189,7 +189,7 @@ class Registropoi extends Controllers
 		$data['page_id'] = 4;
 		$data['page_tag'] = "Registropoi ";
 		$data['page_name'] = "Registropoi";
-		$data['page_title'] = "Registropoi  <small> Tienda POI</small>";
+		$data['page_title'] = "Registropoi  <small> Tienda PACO</small>";
 		$data['page_functions_js'] = "functions_registropoi.js";
 		//$data['page_functions_js'] = "functions_actividadestrategica.js";
 		$this->views->getView($this, "Registropoi", $data);

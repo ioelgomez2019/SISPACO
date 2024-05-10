@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
         "iDisplayLength": 10,
         "order":[[0,"desc"]]  
     });
+    console.log("Hasta aqui");
     if (document.querySelector("#formCuadronecesidad")) {
         var formCuadronecesidad = document.querySelector("#formCuadronecesidad");
         formCuadronecesidad.onsubmit = function (e) {

@@ -3,7 +3,7 @@
   <div class="modal-dialog modal-lg" >
     <div class="modal-content">
       <div class="modal-header headerRegister">
-        <h5 class="modal-title" id="titleModal">BIEN VENIDO A LA TIENDA POI</h5>
+        <h5 class="modal-title" id="titleModal">BIENVENIDO A LA TIENDA PACO</h5>
           <p>Techo Presupuestal 
             <span class=" badge bg-danger">470</span>
           </p>

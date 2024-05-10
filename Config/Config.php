@@ -1,7 +1,7 @@
 <?php 
 	
-	//define("BASE_URL", "http://localhost/tienda_virtual/");
-	const BASE_URL = "http://drep-dgi-poi.test/";
+
+	const BASE_URL = "http://sispaco.test/";
 
 	//Zona horaria
 	//date_default_timezone_set('America/Guatemala');
@@ -11,7 +11,7 @@
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
-	const DB_NAME = "plan_ceplanv1";
+	const DB_NAME = "db_tienda_v6";
 	const DB_USER = "root";
 	const DB_PASSWORD = "";
 	const DB_CHARSET = "utf8";

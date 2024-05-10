@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DREP-CEPLAN</title>
+  <title>SISPACO-CEPLAN</title>
 </head>
 <body>   
-<p>Mini Framework planificacion POI V1.1 local - <a href="http://drep-dgi-poi.test/dashboard">www.drep.dgi.com</a></p>
+<p>SISTEMA DE PLANIFICACION DE ACTIVIDADES OPERATIVAS V1.1 local - <a href="http://sispaco.test/dashboard">www.PLANIFICACION.UNAJ.com</a></p>
 </body>
 </html>
 

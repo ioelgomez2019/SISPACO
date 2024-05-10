@@ -13,8 +13,8 @@
 
 		public function login()
 		{
-			$data['page_tag'] = "Login - DREP-CEPLAN";
-			$data['page_title'] = "Tienda POI";
+			$data['page_tag'] = "Login - PACO-CEPLAN";
+			$data['page_title'] = "Tienda PACO";
 			$data['page_name'] = "login";
 			$data['page_functions_js'] = "functions_login.js";
 			$this->views->getView($this,"login",$data);

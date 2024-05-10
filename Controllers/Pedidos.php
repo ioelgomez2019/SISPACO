@@ -19,7 +19,7 @@ class Pedidos extends Controllers{
 			header("Location:".base_url().'/dashboard');
 		}
 		$data['page_tag'] = "Pedidos";
-		$data['page_title'] = "Pedidos <small>Tienda poi</small>";
+		$data['page_title'] = "Pedidos <small>Tienda PACO</small>";
 		$data['page_name'] = "pedidos";
 		$data['page_functions_js'] = "functions_cuadronesesidades.js";
 		$this->views->getView($this,"Pedidos",$data);
