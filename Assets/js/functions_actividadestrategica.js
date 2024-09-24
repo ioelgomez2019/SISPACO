@@ -63,8 +63,9 @@ document.addEventListener('DOMContentLoaded', function(){
                     {
                         $('#modalFormCuadronecesidad').modal("hide");
                         formCuadronecesidad.reset();
+                        
                         swal("Producto agregado ", objData.msg, "success");
-                        tableCuadrones.api().ajax.reload();
+                        tableActividad.api().ajax.reload();
                     } else {
                         swal("Error", objData.msg, "error");
                     }
